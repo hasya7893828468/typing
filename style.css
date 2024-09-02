@@ -1,0 +1,244 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+body{
+    animation:moveup 0.5s linear forwards;
+
+}
+.container{ 
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-delay: 1s;
+    opacity: 0;
+    animation:moveup 0.5s linear forwards;
+
+}
+.container p{
+    text-align: center;
+}
+
+
+.text{
+    font-size:5em;
+    letter-spacing:5px;
+    font-family: monospace;
+    width: 50%;
+    white-space:nowrap;
+    overflow: hidden;
+    animation: typing 4s infinite  ;
+}
+.nav{
+    animation-delay: 2s;
+    height: 60px;
+    width: 100%;
+    overflow: hidden;
+    animation:moveup 0.5s linear forwards;
+    opacity: 0;
+    animation-delay: 1.5s;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+    /* animation: typing 3s    ,
+    cursor .4s step-end infinite alternate; */
+
+    
+
+}
+nav p{
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+}
+nav h1{
+    background-color: aqua;
+}
+.u{
+    /* background-color: aqua; */
+    /* animation: none; */
+     overflow-x: hidden;
+     position: fixed;
+     left: 9%;
+
+}
+.u1{
+    /* background-color: aqua; */
+    /* animation: none; */
+     overflow-x: hidden;
+     position: fixed;
+     left: 40%;
+
+}.u2{
+    /* background-color: aqua; */
+    /* animation: none; */
+     overflow-x: hidden;
+     position: fixed;
+     left :70%;
+
+}
+
+ .nav-text{
+   
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     white-space:nowrap;
+    
+      
+     animation: typing 2s  infinite steps(10) ,
+ } 
+ .p{
+    
+    overflow-y: hidden;
+
+ }
+ span{
+   height: 50px;
+   width: 200px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+     white-space:nowrap;
+        font-weight: 600;
+    overflow: hidden;
+    animation: typing 2s    ,
+    moveup 0.5s linear forwards;
+    opacity: 0;
+    animation-delay: 2s;
+ }
+
+
+
+
+.main{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    animation:moveup 0.5s linear forwards;
+    opacity: 0;
+    animation-delay: 2s;
+  
+
+}
+/* .p {
+    background-color: aqua;
+overflow: hidden;
+animation:moveup 0.5s linear forwards,
+ typing 2s    ;
+;
+opacity: 0;
+animation-delay: 2.7s;
+} */
+
+
+.d{
+    height: 100px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+justify-content: center;
+}
+
+ h1{
+    right: 0;
+
+text-align: center;
+justify-content: center;
+/* animation: typing 2s   infinite  ; */
+overflow-x: hidden;
+animation:moveup 0.5s linear forwards,
+typing 2s    ;
+
+opacity: 0;
+animation-delay: 2.5s;
+
+}
+h2{
+    font-size: 30px;
+    right: 0;
+    animation:moveup 0.5s linear forwards,
+    typing 2s    ;
+   
+   opacity: 0;
+   animation-delay: 3.1s;
+text-align: center;
+justify-content: center;
+/* animation: typing 2s   infinite  ; */
+overflow-x: hidden;
+
+}
+
+.p{
+   
+    animation:moveup 0.5s linear forwards,
+    typing 2s    ;
+   
+   opacity: 0;
+   animation-delay: 3s;
+
+    height: 100%;
+    width: 70%;
+display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p{
+
+}
+
+.p1{
+    
+   
+  
+
+        height: 100%;
+        width: 70%;
+    display: flex;
+    overflow: hidden;
+        align-items: center;
+        justify-content: center;
+        animation:moveup 0.5s linear forwards,
+        typing 2s   ;
+       ;
+       opacity: 0;
+       animation-delay: 3.5s;
+    
+}
+
+@keyframes typing {
+   
+   
+    from{ width:0;
+        
+    }
+}
+/* @keyframes typing1 {
+   
+   
+    from{ width:0%;
+        
+    }
+    to{
+        width: 100%;
+    }
+} */
+@keyframes moveup{
+    100%{
+      opacity:1;
+      transform:translateY(0px);
+         }
+  }
+  

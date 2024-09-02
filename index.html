@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>typing effect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="container">
+    <p class="text">Name ...</p>
+</header>
+<nav class="nav">
+ <p class="u"> PhoneNumber:<span class="nav-text"> 0123456778 </span></p>
+ <hr>
+ <p class="u1"> gmail:<span class="nav-text"> examplegmail.com </span></p>
+ <hr>
+ <p class="u2 " style="border-right:none ;">dateOfBirth  :<span class="nav-text">11-04-2000</class=></p>
+
+</nav>
+
+<div class="main">
+    <div class="d"><h1>Summer</h1></div>
+    
+    <p class="p" id="q">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut officia est iure ab eos vero laborum nulla ducimus alias commodi ipsa adipisci quis harum officiis, velit, enim, saepe id delectus?
+    </p>
+</div>
+<div class="main">
+    <div class="d"><h2>Skills</h2></div>
+    <p class="p1" id="q">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut officia est iure ab eos vero laborum nulla ducimus alias commodi ipsa adipisci quis harum officiis, velit, enim, saepe id delectus?
+    </p>
+</div>
+
+
+    <!-- <script >
+        function typeEffect(element,speed){
+    var text=element.innerHTML;
+    element.innerHTML="";
+    var i=0;
+     var timer =setInterval(function(){
+        if(i< text.length){
+            element.append(text.charAt(i));
+            i++;
+        }else{
+            clearInterval(timer)
+        }
+     },speed);
+     var speed =75;
+     var q=document.querySelector("q");
+     var h1=document.querySelector("h1");
+     var delay =h1.innerHTML.length*speed+speed;
+
+     setTimeout(function(){
+        q.style.display="inline-block"
+        typeEffect(q,speed);
+     },delay);
+
+}
+    </script> -->
+</body>
+</html>
